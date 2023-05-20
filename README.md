@@ -23,9 +23,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/johnlloydbongcales/hci-project)
+(https://github.com/johnlloydbongcales/hci-project)
 
-Chili Garlic Sauce is a delicious and versatile condiment that adds a fiery kick and robust flavor to a wide range of dishes. Made from high-quality chili peppers and fresh garlic, our sauce is carefully crafted to deliver a perfect balance of heat and flavor. Whether you're a spice lover or simply looking to add some excitement to your meals, our Chili Garlic Sauce is the perfect choice.
+Final Project in HCI II - a major subject of Bachelor of Science in Information Technology course.
 
 Features:
 
@@ -33,17 +33,17 @@ Features:
 - Desktop Responsive
 - Darkmode Feature
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Built With
 
 These are the technology we use in building this project.
 
-- [![HTML][HTML]
-- [![CSS][CSS]
-- [![JAVASCRIPT][Vanilla.js]
+- **HTML**
+- **CSS**
+- **JAVASCRIPT**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 
@@ -68,25 +68,21 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
 ## Contact
 
-John Lloyd Bongcales - (mailto:johnlloydbongcales@gmail.com) - johnlloydbongcales@gmail.com
+John Lloyd Bongcales - johnlloydbongcales@gmail.com
 
 Portfolio Link: [https://johnlloydbongcales.com](https://github.com/your_username/repo_name)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
 
 These are the list of resources I find helpful and would like to give credit to.
-
-- [Choose an Open Source License](https://choosealicense.com)
 - [Darkmode JS](https://darkmodejs.learn.uno/)
 - [Sweet Alert JS](https://sweetalert2.github.io/)
 - [GitHub Pages](https://pages.github.com)
