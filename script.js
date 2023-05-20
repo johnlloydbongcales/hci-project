@@ -66,6 +66,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     title: "Processing",
     text: "Please wait...",
     icon: "info",
+    confirmButtonColor: "#2b20ed",
     showConfirmButton: false,
     timer: 3000 
   });
@@ -74,9 +75,10 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 
     // Update SweetAlert prompt if needed
     Swal.fire({
-      title: "Success",
-      text: "Form submitted successfully!",
+      title: "Message sent!",
+      text: "Your message has been sent successfully. We will respond to you as soon as possible. Thanks!",
       icon: "success",
+      confirmButtonColor: "#2b20ed",
       showConfirmButton: true,
       timer: 10000 // Set the duration for the success message to stay on the screen
     });
