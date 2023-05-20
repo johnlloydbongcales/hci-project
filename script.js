@@ -69,11 +69,11 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
       icon: "success",
       confirmButtonColor: "#2b20ed",
       showConfirmButton: true,
-      timer: 10000 // Set the duration for the success message to stay on the screen
+      timer: 3000 // Set the duration for the success message to stay on the screen
     });
 
     document.getElementById("myForm").reset();
-  }, 2000); // Simulate a delay of 2 seconds before completing the form submission
+  } // Simulate a delay of 2 seconds before completing the form submission
   
 //   Swal.fire({
 //     title: "Processing",
