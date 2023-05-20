@@ -31,7 +31,7 @@ function showMenu() {
   const menuButton = document.getElementById("menu"); 
   const menuElement = document.getElementById("nav-menu");
   menuElement.classList.toggle("show-menu");
-  menuButton.classList.toggle("close-icon");
+//   menuButton.classList.toggle("close-icon");
  
 }
 
