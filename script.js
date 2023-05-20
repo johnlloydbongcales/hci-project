@@ -45,17 +45,17 @@ function showMsg() {
   });
 }
 
-const send = document.getElementById("message");
+// const send = document.getElementById("message");
 
-send.addEventListener('click', () => {
-  Swal.fire({
-    title: 'Message Sent!',
-    text: 'Your message has been sent successfully.',
-    icon: 'success',
-    confirmButtonText: 'OK'
-  }); 
-})
+// send.addEventListener('click', () => {
+//   Swal.fire({
+//     title: 'Message Sent!',
+//     text: 'Your message has been sent successfully.',
+//     icon: 'success',
+//     confirmButtonText: 'OK'
+//   }); 
+// })
 
-menuElement.classList.toggle("show-menu");
-menuButton.classList.toggle("close-icon");
+// menuElement.classList.toggle("show-menu");
+// menuButton.classList.toggle("close-icon");
 
