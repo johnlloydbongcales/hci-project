@@ -31,7 +31,7 @@ function showMenu() {
   const menuButton = document.getElementById("menu"); 
   const menuElement = document.getElementById("nav-menu");
   menuElement.classList.toggle("show-menu");
-//   menuButton.classList.toggle("close-icon");
+  // menuButton.classList.toggle("close-icon");
  
 }
 
@@ -45,43 +45,48 @@ function showMsg() {
   });
 }
 
-function sendMsg() { 
+// function sendMsg(){
+//   Swal.fire({
+//         title: 'Message Sent!',
+//         text: 'Your message has been sent successfully.',
+//         icon: 'success',
+//         confirmButtonText: 'OK'
+//       }); 
+// }
+
 
 // Assuming you have a form with id "myForm" and a submit button with id "submitButton"
+
+function sendMsg(){
 
 document.getElementById("myForm").addEventListener("submit", function(event) {
   event.preventDefault(); // Prevent the default form submission
 
-  // Show SweetAlert prompt
   Swal.fire({
-    title: "Sending",
+    title: "Processing",
     text: "Please wait...",
     icon: "info",
     showConfirmButton: false,
-    timer: 2000 // Set the desired duration in milliseconds (e.g., 3000ms = 3 seconds)
+    timer: 3000 
   });
 
-  // Perform your form submission or any other necessary actions here
-
-  // Example: Simulate a delay before completing the form submission
   setTimeout(function() {
-    // Complete the form submission or perform other actions here
 
     // Update SweetAlert prompt if needed
-    Swal.update({
+    Swal.fire({
       title: "Success",
-      text: "Your message has been sent successfully. We will respond to you as soon as possible. Thanks!",
+      text: "Form submitted successfully!",
       icon: "success",
       showConfirmButton: true,
-      timer: 3000 // Set the duration for the success message to stay on the screen
+      timer: 10000 // Set the duration for the success message to stay on the screen
     });
+
+    document.getElementById("myForm").reset();
   }, 2000); // Simulate a delay of 2 seconds before completing the form submission
 });
 
-} 
+}
 
-
-   
 // const send = document.getElementById("message");
 
 // send.addEventListener('click', () => {
