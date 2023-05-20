@@ -72,8 +72,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 John Lloyd Bongcales - johnlloydbongcales@gmail.com
 
-Portfolio Link: [https://johnlloydbongcales.com]([https://github.com/your_username/repo_name](https://johnlloydbongcales.com))
-
+Portfolio Link: https://www.johnlloydbongcales.com/
 
 <!-- ACKNOWLEDGMENTS -->
 
