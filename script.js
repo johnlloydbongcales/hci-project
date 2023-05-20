@@ -63,7 +63,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
   event.preventDefault(); // Prevent the default form submission
 
   Swal.fire({
-    title: "Processing",
+    title: "Sending",
     text: "Please wait...",
     icon: "info",
     confirmButtonColor: "#2b20ed",
