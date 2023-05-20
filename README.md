@@ -15,7 +15,7 @@
     <a href="https://github.com/johnlloydbongcales/hci-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/johnlloydbongcales/hci-project">View Demo</a>
+    <a href="[https://github.com/johnlloydbongcales/hci-project](https://johnlloydbongcales.github.io/hci-project/)">View Demo</a>
    
   </p>
 </div>
@@ -23,7 +23,6 @@
 
 ## About The Project
 
-(https://github.com/johnlloydbongcales/hci-project)
 
 Final Project in HCI II - a major subject of Bachelor of Science in Information Technology course.
 
@@ -60,8 +59,6 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## License
@@ -75,7 +72,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 John Lloyd Bongcales - johnlloydbongcales@gmail.com
 
-Portfolio Link: [https://johnlloydbongcales.com](https://github.com/your_username/repo_name)
+Portfolio Link: [https://johnlloydbongcales.com]([https://github.com/your_username/repo_name](https://johnlloydbongcales.com))
 
 
 <!-- ACKNOWLEDGMENTS -->
