@@ -45,6 +45,15 @@ function showMsg() {
   });
 }
 
+function sendMsg() { 
+   Swal.fire({ 
+     title: "Congratulation", 
+     text: "Your message has been sent successfully. We will respond to you as soon as possible. Thanks!", 
+     icon: "success", 
+     confirmButtonColor: "#2b20ed", 
+     confirmButtonText: "OK", 
+   }); 
+ }
 // const send = document.getElementById("message");
 
 // send.addEventListener('click', () => {
