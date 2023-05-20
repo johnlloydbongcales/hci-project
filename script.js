@@ -46,14 +46,42 @@ function showMsg() {
 }
 
 function sendMsg() { 
-   Swal.fire({ 
-     title: "Congratulation", 
-     text: "Your message has been sent successfully. We will respond to you as soon as possible. Thanks!", 
-     icon: "success", 
-     confirmButtonColor: "#2b20ed", 
-     confirmButtonText: "OK", 
-   }); 
- }
+
+// Assuming you have a form with id "myForm" and a submit button with id "submitButton"
+
+document.getElementById("myForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  // Show SweetAlert prompt
+  Swal.fire({
+    title: "Sending",
+    text: "Please wait...",
+    icon: "info",
+    showConfirmButton: false,
+    timer: 2000 // Set the desired duration in milliseconds (e.g., 3000ms = 3 seconds)
+  });
+
+  // Perform your form submission or any other necessary actions here
+
+  // Example: Simulate a delay before completing the form submission
+  setTimeout(function() {
+    // Complete the form submission or perform other actions here
+
+    // Update SweetAlert prompt if needed
+    Swal.update({
+      title: "Success",
+      text: "Your message has been sent successfully. We will respond to you as soon as possible. Thanks!",
+      icon: "success",
+      showConfirmButton: true,
+      timer: 3000 // Set the duration for the success message to stay on the screen
+    });
+  }, 2000); // Simulate a delay of 2 seconds before completing the form submission
+});
+
+} 
+
+
+   
 // const send = document.getElementById("message");
 
 // send.addEventListener('click', () => {
