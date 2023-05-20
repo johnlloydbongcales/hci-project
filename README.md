@@ -15,7 +15,7 @@
     <a href="https://github.com/johnlloydbongcales/hci-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="[https://github.com/johnlloydbongcales/hci-project](https://johnlloydbongcales.github.io/hci-project/)">View Demo</a>
+    <a href="https://johnlloydbongcales.github.io/hci-project/">View Demo</a>
    
   </p>
 </div>
