@@ -58,47 +58,34 @@ function showMsg() {
 // Assuming you have a form with id "myForm" and a submit button with id "submitButton"
 
 function sendMsg(){
- 
 
 document.getElementById("myForm").addEventListener("submit", function(event) {
   event.preventDefault(); // Prevent the default form submission
 
-   Swal.fire({
+  Swal.fire({
+    title: "Processing",
+    text: "Please wait...",
+    icon: "info",
+    confirmButtonColor: "#2b20ed",
+    showConfirmButton: false,
+    timer: 3000 
+  });
+
+  setTimeout(function() {
+
+    // Update SweetAlert prompt if needed
+    Swal.fire({
       title: "Message sent!",
       text: "Your message has been sent successfully. We will respond to you as soon as possible. Thanks!",
       icon: "success",
       confirmButtonColor: "#2b20ed",
       showConfirmButton: true,
-      timer: 3000 // Set the duration for the success message to stay on the screen
+      timer: 10000 // Set the duration for the success message to stay on the screen
     });
 
     document.getElementById("myForm").reset();
-  } // Simulate a delay of 2 seconds before completing the form submission
-  
-//   Swal.fire({
-//     title: "Processing",
-//     text: "Please wait...",
-//     icon: "info",
-//     confirmButtonColor: "#2b20ed",
-//     showConfirmButton: false,
-//     timer: 3000 
-//   });
-
-//   setTimeout(function() {
-
-//     // Update SweetAlert prompt if needed
-//     Swal.fire({
-//       title: "Message sent!",
-//       text: "Your message has been sent successfully. We will respond to you as soon as possible. Thanks!",
-//       icon: "success",
-//       confirmButtonColor: "#2b20ed",
-//       showConfirmButton: true,
-//       timer: 10000 // Set the duration for the success message to stay on the screen
-//     });
-
-//     document.getElementById("myForm").reset();
-//   }, 2000); // Simulate a delay of 2 seconds before completing the form submission
-// });
+  }, 2000); // Simulate a delay of 2 seconds before completing the form submission
+});
 
 }
 
