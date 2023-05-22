@@ -81,7 +81,7 @@ Portfolio Link: https://www.johnlloydbongcales.com/
 These are the list of resources I find helpful and would like to give credit to.
 - [Darkmode JS](https://darkmodejs.learn.uno/)
 - [Sweet Alert JS](https://sweetalert2.github.io/)
-- - [Swiper JS] (https://swiperjs.com/))
+- [Swiper JS](https://swiperjs.com/)
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
 
