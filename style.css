@@ -28,7 +28,7 @@
    margin-bottom: 20px;
 }
   
-  
+  /* Navigation Section */
 
 nav{
     display: flex;
@@ -125,6 +125,8 @@ a{
 }
 
 
+/* hero section */
+
 #hero {
     max-width: 1200px;
     margin: 0 auto;
@@ -138,7 +140,7 @@ a{
     flex-direction: column;
     text-align: justify;
     margin-top: 6vh;
-  /* padding-left: 40px; */
+  
 }
 
 #hero .left-hero h2 {
@@ -150,6 +152,11 @@ a{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#hero .typer #typer{
+    font-weight: 700;
+    font-size: 20px;
 }
 
 #hero .left-hero p {
@@ -233,11 +240,14 @@ a{
 }
 
 
+
+/* About Section */
+
 #about .about{
     flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
-	/* padding: 100px 20px; */
+	
 }
 
 .about .about-title {
@@ -332,6 +342,8 @@ a{
 	margin: 0 auto;
 	width: 100%;
 }
+
+/* contact section */
 
 .contact h1{
     margin-top: 20px;
@@ -491,6 +503,8 @@ hr{
 }
 
 
+/* mobile responsive section */
+
 @media only screen and (max-width: 600px){
     .show-menu{
         position: absolute;
@@ -577,13 +591,18 @@ hr{
         width: 100%;
         margin-right: 0;
         padding: 0 20px;
+        padding-top: 40px;
     }
 
+    #hero .left-hero h2{
+        margin-bottom: 10px;
+     
+    }
     #hero .left-hero h2, .about .about-title h1 {
         align-items: center;
         font-size: 2rem;
-        padding-top: 15vh;
-        margin-bottom: 30px;
+        padding-top: 30px;
+     
     
     }
 
@@ -591,7 +610,7 @@ hr{
         align-items: center;
         font-size: 3rem;
         padding-top: 70px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     
     }
     #hero-img, .about-flex .pic img{
@@ -695,9 +714,7 @@ hr{
 
       .contact .description p{
         padding: 0 20px;
-      }
-
-     
+      }   
 
 }
 
