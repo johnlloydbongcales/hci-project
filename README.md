@@ -82,6 +82,7 @@ These are the list of resources I find helpful and would like to give credit to.
 - [Darkmode JS](https://darkmodejs.learn.uno/)
 - [Sweet Alert JS](https://sweetalert2.github.io/)
 - [Swiper JS](https://swiperjs.com/)
+- [Typed JS](https://github.com/mattboldt/typed.js/)
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
 
