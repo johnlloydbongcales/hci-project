@@ -41,6 +41,7 @@
       <div id="hero" class="container">
         <div class="left-hero">
           <h2 class="darkmode-ignore">Asian Essentials.</h2>
+          <h4 class="typer"><span id="typer"></span></h4>
           <p>
             Our company is dedicated to bringing the perfect balance of heat and
             flavor to every culinary experience. We take pride in crafting our
@@ -50,9 +51,6 @@
             chili peppers and aromatic garlic, resulting in a versatile
             condiment that enhances dishes from around the world.
 
-            <!-- <div class="btns"> 
-                <button class="lrn-btn" id="hero-btn"><a href="#about">Learn More</a></button> 
-                <button id="hero-btn"><a href="#contact">Order Now</a></button> -->
             <a href="#about"
               ><button id="cta" class="darkmode-ignore">
                 Learn More
@@ -60,13 +58,10 @@
                   <div class="arrow"></div>
                 </div></button
             ></a>
-            <!-- </div> -->
           </p>
         </div>
 
         <div class="right-hero">
-          <!-- <img id="hero-img" src="img/chilisauce.webp" alt="" /> -->
-
           <swiper-container class="mySwiper" navigation="true">
             <swiper-slide>
               <img id="hero-img" src="img/chilisauce.webp" alt=""
@@ -102,14 +97,14 @@
 
           <div class="details">
             <p class="first-par">
-              <strong>Asian Essentials</strong> is a renowned chili garlic sauce
-              company that brings the vibrant flavors of Asia to your culinary
-              adventures. With a passion for authentic taste and quality
-              ingredients, Asian Essentials is dedicated to crafting the finest
-              chili garlic sauces that elevate your dishes to new heights. Our
-              sauces are meticulously created using a harmonious blend of fiery
-              chili peppers and aromatic garlic, capturing the essence of Asian
-              cuisine in every bottle.
+              <u><strong>Asian Essentials</strong></u> is a renowned chili
+              garlic sauce company that brings the vibrant flavors of Asia to
+              your culinary adventures. With a passion for authentic taste and
+              quality ingredients, Asian Essentials is dedicated to crafting the
+              finest chili garlic sauces that elevate your dishes to new
+              heights. Our sauces are meticulously created using a harmonious
+              blend of fiery chili peppers and aromatic garlic, capturing the
+              essence of Asian cuisine in every bottle.
             </p>
 
             <p class="second-par">
@@ -199,26 +194,48 @@
         </ul>
 
         <hr />
-        <h3 class="credit">
-          <!-- <strong>Asiann Essentials</strong> | -->
-          All rights reserved &copy; 2023
-        </h3>
+        <h3 class="credit">All rights reserved &copy; 2023</h3>
       </div>
     </section>
 
+    <!-- Swiper JS Library -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
+    <!-- FOnt Awesome Library -->
     <script
       src="https://kit.fontawesome.com/842c449d43.js"
       crossorigin="anonymous"
     ></script>
 
+    <!-- Darkmode JS Library -->
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script>
       function addDarkmodeWidget() {
         new Darkmode().showWidget();
       }
       window.addEventListener("load", addDarkmodeWidget);
+    </script>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#typer", {
+        strings: [
+          "Chili Garlic Sause",
+          "100% Organic",
+          "Freshly Made",
+          "Since 2023",
+        ],
+        typeSpeed: 50,
+        backSpeed: 50,
+        backDelay: 700,
+        loop: true,
+        loopCount: Infinity,
+        smartBackspace: true,
+        showCursor: true,
+      });
     </script>
   </body>
 </html>
