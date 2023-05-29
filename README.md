@@ -36,7 +36,7 @@ Features:
 
 ### Built With
 
-These are the technology we use in building this project.
+These are the technologies we use in building this project.
 
 - **HTML**
 - **CSS**
