@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/johnlloydbongcales/hci-project">
-    <img src="img/brand.jpeg" alt="Logo" width="80" height="80">
+    <img src="img/brand.jpeg" alt="Logo" width="80" height="80" border-radius="50%">
   </a>
 
   <h3 align="center">Asian Essentials - Chili Sauce Company</h3>
