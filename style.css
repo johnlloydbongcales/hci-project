@@ -599,7 +599,7 @@ hr{
      
     }
     #hero .left-hero h2, .about .about-title h1 {
-        align-items: center;
+        text-align: center;
         font-size: 2rem;
         padding-top: 30px;
      
